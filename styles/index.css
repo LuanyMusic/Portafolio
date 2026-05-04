@@ -1,0 +1,27 @@
+@import url('./blocks/menu.css');
+@import url('./blocks/header.css');
+@import url('./blocks/contenidos.css');
+@import url('./blocks/fotos.css');
+@import url('./blocks/about.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/fotografias.css');
+
+/* FUENTES REALES */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --font-title: 'Montserrat', sans-serif;
+  --font-text: 'Open Sans', sans-serif;
+}
+
+/* BASE GLOBAL */
+body {
+  font-family: var(--font-text);
+  margin: 0;
+  padding: 0;
+}
+
+/* TITULOS */
+h1, h2, h3 {
+  font-family: var(--font-title);
+}
